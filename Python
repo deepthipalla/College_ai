@@ -1,0 +1,34 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Query(BaseModel):
+    question: str
+
+def classify_intent(question):
+    if "fee" in question.lower():
+        return "finance"
+    elif "admission" in question.lower():
+        return "admission"
+    elif "course" in question.lower():
+        return "academics"
+    else:
+        return "general"
+
+@app.post("/ask")
+def ask_question(query: Query):
+    intent = classify_intent(query.question)
+
+    # Simulated retrieval
+    if intent == "finance":
+        data = "Fee details: ₹50,000 per year"
+    elif intent == "admission":
+        data = "Admission deadline: July 30"
+    else:
+        data = "General college information"
+
+    return {
+        "intent": intent,
+        "response": data
+    }
