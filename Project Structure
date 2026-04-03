@@ -1,0 +1,7 @@
+## 📁 Project Structure
+
+college-ai-agent/
+│── app.py
+│── README.md
+│── requirements.txt
+│── flow_diagram.png
