@@ -1,0 +1,20 @@
+User Query
+   ↓
+NLP Processing
+   ↓
+Intent Classification
+   ↓
+Query Routing
+   ↓
++------------------------+
+| Structured Data (DB)   |
+| Unstructured Docs (PDF)|
++------------------------+
+   ↓
+Data Retrieval (RAG)
+   ↓
+Validation Layer
+   ↓
+Response Generation (LLM)
+   ↓
+User Response
