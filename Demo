@@ -1,0 +1,12 @@
+## 🎥 Demo
+
+Sample Queries:
+- What is the admission deadline?
+- What are the fees for CSE?
+- List available courses
+
+Sample Response:
+{
+  "intent": "admission",
+  "response": "Admission deadline: July 30"
+}
