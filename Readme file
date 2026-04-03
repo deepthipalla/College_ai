@@ -1,0 +1,70 @@
+# 🎓 College AI Agent
+
+## 📌 Project Description
+This project is an AI-powered assistant designed for a college website. It handles queries related to admissions, courses, fees, scholarships, and policies using structured and unstructured data sources.
+
+---
+
+## 🧠 Architecture Overview
+
+The system follows a Retrieval-Augmented Generation (RAG) approach:
+
+User → NLP → Intent Classification → Routing → Retrieval → Validation → Response
+
+---
+
+## 🔄 Flow Diagram
+(Upload image here)
+
+---
+
+## ⚙️ Core Capabilities
+
+1. Intent Classification  
+2. Query Routing  
+3. Structured Data Retrieval  
+4. Unstructured Document Search  
+5. Response Validation  
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|--------|
+| Python | Backend development |
+| FastAPI | API creation |
+| LangChain | AI workflow orchestration |
+| OpenAI API | Natural language processing |
+| FAISS | Vector search |
+
+---
+
+## 📊 Use Case
+
+- Students can ask:  
+  - “What is the fee structure?”  
+  - “When is admission deadline?”  
+  - “List available courses”  
+
+---
+
+## ✅ Advantages
+
+- Fast responses  
+- Accurate information  
+- Reduced manual workload  
+
+---
+
+## 🔮 Future Improvements
+
+- Voice assistant integration  
+- Multi-language support  
+- Real-time database connection  
+
+---
+
+## 📌 Conclusion
+
+This AI agent enhances the digital experience of students by providing instant, accurate, and reliable information.
